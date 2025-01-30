@@ -9,6 +9,7 @@ tmp
 
 # Exclude example.tfvars from being ignored
 !example.tfvars
+!home.tfvars
 
 # OS files
 Icon*
