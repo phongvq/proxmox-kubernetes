@@ -16,7 +16,7 @@ pm_api_url          = "https://localhost:8006/api2/json"
 pm_api_token_id     = "root@pam!iac"
 pm_api_token_secret = "5e55f281-79e1-4b84-9efb-c076909eda12"
 pm_tls_insecure     = true
-pm_hosts             = ["phony"]
+pm_hosts            = ["phony"]
 pm_parallel         = 2
 pm_timeout          = 600
 
@@ -71,3 +71,4 @@ helm_enabled               = true
 ingress_nginx_enabled      = false
 argocd_enabled             = false
 argocd_version             = "v2.11.4"
+
