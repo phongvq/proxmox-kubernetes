@@ -28,7 +28,7 @@ internal_net_name = "vmbr0"
 # Internal network MTU (you only need to change this when mtu is different from the default host settings)
 #internal_net_mtu = 1500
 # Internal network CIDR
-internal_net_subnet_cidr = "192.168.1.0/24"
+internal_net_subnet_cidr = "192.168.2.0/24"
 # Base64 encoded keys for Kubernetes admin authentication
 ssh_public_keys = "c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUFhOURxNDdrSjZCUWlxaVJSL1lmQ0FTMS9yVkVJZnBsMHJYMkpWekZyb2wgcGhvbmcudnVAcGhvbmd2dQo="
 
@@ -37,8 +37,8 @@ vm_os_disk_storage = "local-lvm"
 
 # Bastion host details. This is required for the Terraform client to 
 # connect to the Kubespray VM that will be placed into the internet network
-bastion_ssh_ip   = "100.92.244.53"
-bastion_ssh_user = "phongvu"
+bastion_ssh_ip   = "100.116.173.51"
+bastion_ssh_user = "root"
 bastion_ssh_port = 22
 
 # VM specifications

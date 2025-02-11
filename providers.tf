@@ -1,6 +1,14 @@
 terraform {
   required_version = ">=1.3.3"
 
+  cloud {
+    organization = "selfhosteddailycookie"
+
+    workspaces {
+      name = "terraform-proxmox-k8s"
+    }
+  }
+
   required_providers {
     proxmox = {
       source  = "telmate/proxmox"
